@@ -15,9 +15,6 @@ export default function MainCarousel() {
         '/images/maincarousel/carousel3.jpg'
     ]
 
-    const t = useTranslations('Home');
-
-
     return (
         <Carousel
             className='flex'

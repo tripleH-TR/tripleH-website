@@ -1,8 +1,6 @@
 "use client"
 
 import "./MobileMenu.scss"
-import { Disclosure, DisclosureButton } from "@headlessui/react"
-import { ChevronDownIcon } from "@heroicons/react/24/outline"
 import clsx from "clsx"
 import Link from 'next/link'
 import { Navigation } from '@/type/Common'
