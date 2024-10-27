@@ -6,7 +6,7 @@ import Image from 'next/image'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
-import { useTranslations } from 'next-intl';
+
 
 export default function MainCarousel() {
     const images = [
