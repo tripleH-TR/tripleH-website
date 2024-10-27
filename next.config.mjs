@@ -1,8 +1,12 @@
 import createNextIntlPlugin from 'next-intl/plugin';
 
-const withNextIntl = createNextIntlPlugin();
+const withNextIntl = createNextIntlPlugin('src/i18n/request.ts');
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    sassOptions: {
+        silenceDeprecations: ['legacy-js-api']
+    }
+};
 
 export default withNextIntl(nextConfig);

@@ -17,6 +17,8 @@ const config: Config = {
         secondarydark: "hsl(0 0% 85%)",
         secondarydarker: "hsl(0 0% 70%)",
 
+        alternate: "hsl(14 70% 40%)",
+
         backgroundImage: {
           "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
           "gradient-conic":

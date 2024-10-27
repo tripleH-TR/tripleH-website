@@ -1,44 +1,35 @@
 import { NextIntlClientProvider } from 'next-intl';
-import { notFound } from 'next/navigation';
-import { ReactNode } from 'react';
+import { getMessages } from 'next-intl/server';
+import "../globals.scss";
+import Navbar from '../components/navigation/Navbar';
 
-export const generateMetadata = ({ params }: { params: { locale: string } }) => {
-  // Burada image leride open graph olarak eklenebilir 
-  const { locale } = params;
+export const generateMetadata = () => {
   return {
-    title: `Triple H - ${locale}`
+    title: "Triple H"
   }
 }
-// buralar komple gpt
-export function generateStaticParams() {
-  return [{ locale: 'en' }, { locale: 'tr' }];
-}
-
-export const dynamicParams = false;
 
 export default async function LocaleLayout({
   children,
-  params,
+  params
 }: {
-  children: ReactNode;
-  params: { locale: string };
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>; // params tipini Promise olarak değiştiriyoruz
 }) {
-  // `params`'i asenkron olarak alın
-  // paramsin onune await yazdim
+  // params'ı bekleyerek locale'i alıyoruz
   const { locale } = await params;
-  let messages;
-  try {
-    messages = (await import(`../../locales/${locale}.json`)).default;
-  } catch (error) {
-    notFound();
-  }
 
-  // gpt bitti
+  // Mesajları almak için locale bilgisini nesne olarak geçin
+  const messages = await getMessages({ locale });
+
   return (
-
-    <NextIntlClientProvider messages={messages}>
-      {children}
-    </NextIntlClientProvider>
-
+    <html lang={locale}>
+      <body className=''>
+        <NextIntlClientProvider messages={messages}>
+          <Navbar locale={locale} />
+          <main className='flex flex-col items-center'>{children}</main>
+        </NextIntlClientProvider>
+      </body>
+    </html>
   );
 }

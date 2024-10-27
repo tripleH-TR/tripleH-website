@@ -1,5 +1,16 @@
-import Image from "next/image";
+import ArticleSection from "../components/homepage/ArticleSection";
+import ImagesBanner from "../components/homepage/ImagesBanner";
+import MainCarousel from "../components/homepage/MainCarousel";
 
 export default function Home() {
-  return <h1>Home Page</h1>
+  return (<>
+    <MainCarousel />
+
+    <ArticleSection />
+
+    <ImagesBanner />
+
+  </>)
 }
+
+
