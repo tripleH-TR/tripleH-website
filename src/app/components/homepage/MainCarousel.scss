@@ -1,0 +1,11 @@
+.control {
+    @apply flex transition top-0 absolute bg-transparent justify-center flex-col h-full m-2 px-4 md:px-8 z-30 hover:bg-slate-300/25 rounded-md hover:shadow;
+
+    &.left {
+        @apply left-0;
+    }
+
+    &.right {
+        @apply right-0;
+    }
+}

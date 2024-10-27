@@ -1,0 +1,77 @@
+{
+    "Nav": {
+        "Home": "Ana Sayfa",
+        "Institutional": "Kurumsal",
+        "Referances": "Referanslar",
+        "Contact": "Iletisim"
+    },
+    "Home": {
+        "title": "Triple H",
+        "slogan": "Mobilya Sektörüne Yeni Nesil Çözümler",
+        "articles": [
+            {
+                "title": "Tasarım ve Üretimde Uzman",
+                "description": "Triple H, hammaddeyi uzman mühendis, mimar ekipleri ve maharetli ustaları ile dekoratif formlara kavuşturarak ihtiyaçlara cevap vermektedir. Üstelik tam 50 yıllık tecrübe ile...",
+                "img": "/images/article/article1.jpg"
+            },
+            {
+                "title": "Doğaya Karşı Duyarlı",
+                "description": "Yaşanabilir bir çevre, doğal kaynakların korunması, sürdürülebilir bir gelişme için Unimob Mobilya, çevreye duyarlı çalışma prensibini ISO 14001 Çevre Yönetim Sistemi ile taahhüt altına almıştır.",
+                "img": "/images/article/article2.jpg"
+            }
+        ]
+    },
+    "Institutional": {
+        "title": "Kurumsal",
+        "mission": "Misyonumuz",
+        "missionDesc": "misyonumuz Aciklama metni",
+        "vision": "Vizyonumuz",
+        "visionDesc": "vizyonumuz Aciklama metni"
+    },
+    "Referances": {
+        "title": "Referanslar",
+        "description": "Aciklama Metni",
+        "Refs": [
+            {
+                "logo": "url",
+                "imgages": [
+                    "url1",
+                    "url2",
+                    "url3"
+                ]
+            },
+            {
+                "logo": "url",
+                "imgages": [
+                    "url1",
+                    "url2",
+                    "url3"
+                ]
+            },
+            {
+                "logo": "url",
+                "imgages": [
+                    "url1",
+                    "url2",
+                    "url3"
+                ]
+            },
+            {
+                "logo": "url",
+                "imgages": [
+                    "url1",
+                    "url2",
+                    "url3"
+                ]
+            },
+            {
+                "logo": "url",
+                "imgages": [
+                    "url1",
+                    "url2",
+                    "url3"
+                ]
+            }
+        ]
+    }
+}

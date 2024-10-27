@@ -1,0 +1,15 @@
+.desktop-menu {
+    @apply hidden sm:ml-6 lg:block;
+
+    .wrapper {
+        @apply flex gap-5;
+
+        .link-item {
+            @apply text-secondary shadow-lg my-auto mx-auto text-center rounded-md px-6 py-3 text-lg hover:bg-primarylighter;
+
+            &.active {
+                @apply bg-secondary text-primary
+            }
+        }
+    }
+}
