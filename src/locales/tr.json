@@ -1,5 +1,7 @@
 {
-    "welcome": "Web sitemize hoş geldiniz!",
-    "description": "Bu ana sayfadır.",
-    "buttonText": "Buraya tıklayın"
+    "Home": {
+        "welcome": "Web sitemize hoş geldiniz!",
+        "description": "Bu ana sayfadır.",
+        "buttonText": "Buraya tıklayın"
+    }
 }
