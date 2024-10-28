@@ -2,7 +2,9 @@ import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
 import "../globals.scss";
 import Navbar from '../components/navigation/Navbar';
-import Footer from '../components/footer/footer';
+import Footer from '../components/footer/Footer';
+import GoTopButton from '../components/GoTopButton';
+
 
 
 export const generateMetadata = () => {
@@ -30,6 +32,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider messages={messages}>
           <Navbar locale={locale} />
           <main className='flex flex-col items-center'>{children}</main>
+          <GoTopButton />
           <Footer />
         </NextIntlClientProvider>
       </body>

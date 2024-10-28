@@ -2,27 +2,30 @@
     "Nav": {
         "Home": "Ana Sayfa",
         "Institutional": "Kurumsal",
+        "About": "Hakkimizda",
+        "Message": "Kurucu Mesaji",
         "Referances": "Referanslar",
         "Contact": "Iletisim"
     },
     "Home": {
-        "title": "Triple H",
+        "title": "3H",
         "slogan": "Mobilya Sektörüne Yeni Nesil Çözümler",
         "articles": [
             {
                 "title": "Tasarım ve Üretimde Uzman",
-                "description": "Triple H, hammaddeyi uzman mühendis, mimar ekipleri ve maharetli ustaları ile dekoratif formlara kavuşturarak ihtiyaçlara cevap vermektedir. Üstelik tam 50 yıllık tecrübe ile...",
-                "img": "/images/article/article1.jpg"
+                "description": "Triple H, hammaddeyi uzman mühendis, mimar ekipleri ve maharetli ustaları ile dekoratif formlara kavuşturarak ihtiyaçlara cevap vermektedir. Üstelik tam 50 yıllık tecrübe ile..."
             },
             {
                 "title": "Doğaya Karşı Duyarlı",
-                "description": "Yaşanabilir bir çevre, doğal kaynakların korunması, sürdürülebilir bir gelişme için Unimob Mobilya, çevreye duyarlı çalışma prensibini ISO 14001 Çevre Yönetim Sistemi ile taahhüt altına almıştır.",
-                "img": "/images/article/article2.jpg"
+                "description": "Yaşanabilir bir çevre, doğal kaynakların korunması, sürdürülebilir bir gelişme için Unimob Mobilya, çevreye duyarlı çalışma prensibini ISO 14001 Çevre Yönetim Sistemi ile taahhüt altına almıştır."
             }
         ],
+        "middleBanner": {
+            "leftIconText": "Magaza",
+            "middleIconText": "Mobilya",
+            "rightIconText": "Tasarim"
+        },
         "subArticle": {
-            "leftImg": "/images/subArticle/leftImg.jpg",
-            "rightImg": "/images/subArticle/rightImg.jpg",
             "topTitle": "Kusursuz Üretim",
             "topDescription": "Hızlı, yenilikçi ve esnek hizmet anlayışımız ile kusursuz bir üretim yapıyoruz.",
             "botTitle": "Uzman Ekip",
@@ -40,12 +43,6 @@
         "title": "Iletisim",
         "subTitle": "Adres",
         "address": "Merve Mah. Atatürk Cad. No: 324 A Sancaktepe 34785 İstanbul - Türkiye",
-        "phone": "+90 216 999 99 99",
-        "email": "info@tripleh.com.tr",
-        "facebook": "url",
-        "instagram": "url",
-        "linkedin": "url",
-        "whatsapp": "url",
         "form": {
             "title": "İletişim Formu",
             "description": "Mesajınıza en kısa süre içinde dönüş yapacağız.",

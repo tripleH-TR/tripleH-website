@@ -19,7 +19,14 @@ const Navbar = ({ locale }: NavbarProps) => {
     const navigation = {
         items: [
             { name: t('Home'), href: `/${locale}`, isActive: pathname === `/${locale}` },
-            { name: t('Institutional'), href: `/${locale}/institutional`, isActive: pathname.includes(`institutional`) },
+            {
+                name: t('Institutional'),
+                isActive: pathname.includes(`institutional`),
+                subitems: [
+                    { name: t('About'), href: `/${locale}/institutional/about/`, isActive: pathname.includes(`institutional/about`) },
+                    { name: t('Message'), href: `/${locale}/institutional/message/`, isActive: pathname.includes(`institutional/message/`) }
+                ]
+            },
             { name: t('Referances'), href: `/${locale}/referances`, isActive: pathname.includes(`referances`) },
             { name: t('Contact'), href: `/${locale}/contact`, isActive: pathname.includes(`contact`) },
         ]

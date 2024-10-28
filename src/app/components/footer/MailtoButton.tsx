@@ -1,19 +1,21 @@
 import { EnvelopeIcon } from "@heroicons/react/24/solid";
-import { useTranslations } from "next-intl";
+import mail from "@/locales/static.json"
+
 
 interface MailButtonProps {
     className: string
 }
 
+
 export default function MailButton({ className }: MailButtonProps) {
-    const t = useTranslations('Contact');
+
     return (
         <a
-            href={`mailto:${t('email')}`}
+            href={`mailto:${mail.email}`}
             className={className}
         >
             <EnvelopeIcon className="h-5 w-5" />
-            <span>{t('email')}</span>
+            <span>{mail.email}</span>
         </a>
     );
 }

@@ -1,6 +1,6 @@
 import { useTranslations } from "next-intl";
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
-
+import socialLink from "@/locales/static.json"
 export default function SocialMediaLinks() {
 
     const t = useTranslations('Contact')
@@ -8,39 +8,39 @@ export default function SocialMediaLinks() {
         <div className="flex flex-row justify-between z-10 gap-3">
             <a
                 aria-label="Facebook"
-                href={t('facebook')}
+                href={socialLink.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600 hover:text-blue-800 transition duration-300"
+                className="text-blue-600  transition duration-300 cursor-default"
             >
-                <FaFacebook className="flex-none w-6 h-6" />
+                <FaFacebook className="flex-none w-8 h-8" />
             </a>
             <a
                 aria-label="Instagram"
-                href={t('instagram')}
+                href={socialLink.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-500 hover:text-pink-700 transition duration-300"
+                className="text-pink-500  transition duration-300 cursor-default"
             >
-                <FaInstagram className="flex-none w-6 h-6" />
+                <FaInstagram className="flex-none w-8 h-8" />
             </a>
             <a
                 aria-label="LinkedIn"
-                href={t('linkedin')}
+                href={socialLink.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-700 hover:text-blue-900 transition duration-300"
+                className="text-blue-700  transition duration-300 cursor-default"
             >
-                <FaLinkedin className="flex-none w-6 h-6" />
+                <FaLinkedin className="flex-none w-8 h-8" />
             </a>
             <a
                 aria-label="WhatsApp"
-                href={t('whatsapp')}
+                href={socialLink.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-green-500 hover:text-green-700 transition duration-300"
+                className="text-green-500  transition duration-300 cursor-default"
             >
-                <FaWhatsapp className="flex-none w-6 h-6" />
+                <FaWhatsapp className="flex-none w-8 h-8" />
             </a>
         </div>
     </>)

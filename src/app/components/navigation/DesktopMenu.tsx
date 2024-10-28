@@ -15,13 +15,35 @@ const DesktopMenu = ({ navigation }: DesktopMenuProps) => {
         <div className={clsx("desktop-menu")}>
             <div className="wrapper">
                 {navigation.items.map((item) => (
-                    <Link
-                        key={item.name}
-                        href={item.href ?? "#"}
-                        className={clsx("link-item", item.isActive && "active")}
-                    >
-                        {item.name}
-                    </Link>
+                    item.href ? (
+                        <Link
+                            key={item.name}
+                            href={item.href}
+                            className={clsx("link-item", item.isActive && "active")}
+                        >
+                            {item.name}
+                        </Link>
+                    ) : (
+                        <div key={item.name} className='subwrapper group'>
+                            <button
+                                type="button" className={clsx("sublink-button", item.isActive && "active")}
+                            >
+                                {item.name}
+                            </button>
+                            <div className="absolute left-0 my-3 w-48 origin-top-right rounded-md shadow-lg bg-gray-100 ring-1 ring-primary ring-opacity-5 focus:outline-none opacity-0 group-hover:opacity-100 transition-opacity duration-500 p-4">
+                                <div className="dropdown-arrow"></div>
+                                {item.subitems?.map((subitem) => (
+                                    <Link
+                                        key={subitem.name}
+                                        href={subitem.href}
+                                        className={clsx("sublink-item", subitem.isActive && "active")}
+                                    >
+                                        {subitem.name}
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
+                    )
                 ))}
 
             </div>
