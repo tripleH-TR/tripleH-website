@@ -19,7 +19,15 @@
                 "description": "Yaşanabilir bir çevre, doğal kaynakların korunması, sürdürülebilir bir gelişme için Unimob Mobilya, çevreye duyarlı çalışma prensibini ISO 14001 Çevre Yönetim Sistemi ile taahhüt altına almıştır.",
                 "img": "/images/article/article2.jpg"
             }
-        ]
+        ],
+        "subArticle": {
+            "leftImg": "/images/subArticle/leftImg.jpg",
+            "rightImg": "/images/subArticle/rightImg.jpg",
+            "topTitle": "Kusursuz Üretim",
+            "topDescription": "Hızlı, yenilikçi ve esnek hizmet anlayışımız ile kusursuz bir üretim yapıyoruz.",
+            "botTitle": "Uzman Ekip",
+            "botDescription": "100'e yakın uzman ekibimizle, her projede müşterilerimizin güvendiği çözüm ortağı oluyoruz."
+        }
     },
     "Institutional": {
         "title": "Kurumsal",
@@ -27,6 +35,25 @@
         "missionDesc": "misyonumuz Aciklama metni",
         "vision": "Vizyonumuz",
         "visionDesc": "vizyonumuz Aciklama metni"
+    },
+    "Contact": {
+        "title": "Iletisim",
+        "subTitle": "Adres",
+        "address": "Merve Mah. Atatürk Cad. No: 324 A Sancaktepe 34785 İstanbul - Türkiye",
+        "phone": "+90 216 999 99 99",
+        "email": "info@tripleh.com.tr",
+        "facebook": "url",
+        "instagram": "url",
+        "linkedin": "url",
+        "whatsapp": "url",
+        "form": {
+            "title": "İletişim Formu",
+            "description": "Mesajınıza en kısa süre içinde dönüş yapacağız.",
+            "name": "Adiniz Soyadiniz",
+            "email": "E-Posta Adresiniz",
+            "massage": "Mesajiniz",
+            "sendButton": "Gonder"
+        }
     },
     "Referances": {
         "title": "Referanslar",

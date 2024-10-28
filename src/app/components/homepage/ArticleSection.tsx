@@ -13,14 +13,16 @@ export default function ArticleSection() {
     const articles = t.raw('articles') as Article[];
     return (<>
 
-        <AnimatedSection
-            shouldShowInView
-            from="top"
-            duration={3000}
-            className="m-10 col-span-1 md:col-span-2">
-            <h3 className="text-center p-4">{t('slogan')}</h3>
-            <h1 className="text-center underline underline-offset-8 decoration-white drop-shadow-2xl">{t('title')}</h1>
-        </AnimatedSection>
+        <header>
+            <AnimatedSection
+                shouldShowInView
+                from="top"
+                duration={3000}
+                className="m-10 col-span-1 md:col-span-2">
+                <h3 className="text-center p-4">{t('slogan')}</h3>
+                <h1 className="text-center underline underline-offset-8 decoration-white drop-shadow-2xl">{t('title')}</h1>
+            </AnimatedSection>
+        </header>
 
         <article className="grid grid-cols-1 md:grid-cols-2 gap-10 pb-10 max-w-7xl">
             {articles.map((article, index) => (

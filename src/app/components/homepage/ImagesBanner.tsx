@@ -11,7 +11,7 @@ const images = [
 
 export default function ImagesBanner() {
     return (<>
-        <section className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-0 mb-5 w-full">
+        <section className="mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-0 mb-10 w-full">
 
             <div className="flex flex-col justify-center items-center">
                 <div className="justify-center items-center text-white p-5">

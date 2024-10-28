@@ -42,7 +42,8 @@ export default function MainCarousel() {
                         alt={`Legend ${index + 1}`}
                         height={1080}
                         width={1920}
-                        quality={60}
+                        quality={50}
+                        sizes="(max-width: 500px) 50vw,(max-width: 1024px) 60vw, 70vw"
                         priority={Boolean([0, 1].includes(index))}
                     />
                 </div>
