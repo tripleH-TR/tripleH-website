@@ -31,7 +31,7 @@ export default async function LocaleLayout({
       <body className=''>
         <NextIntlClientProvider messages={messages}>
           <Navbar locale={locale} />
-          <main className='flex flex-col items-center'>{children}</main>
+          <main className='flex flex-col items-center min-h-screen'>{children}</main>
           <GoTopButton />
           <Footer />
         </NextIntlClientProvider>

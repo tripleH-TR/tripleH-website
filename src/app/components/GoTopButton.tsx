@@ -10,7 +10,7 @@ const GoTopButton = () => {
 
     return (
         <AnimatedSection
-            className="fixed bottom-8 right-8 z-10 bg-alternatebright rounded-xl p-2"
+            className="fixed bottom-8 right-8 z-20 bg-alternatebright rounded-xl p-2"
             from="bottom"
             show={scroll.y > 400}
             duration={1000} >

@@ -59,7 +59,7 @@ export default function ArticleSection() {
             </AnimatedSection>
 
             <AnimatedSection
-                className="p-4 shadow-2xl rounded-lg shadow-2xl grid grid-cols-1 md:grid-cols-3"
+                className="p-4 shadow-2xl rounded-lg grid grid-cols-1 md:grid-cols-3"
                 shouldShowInView
                 from='right'
                 duration={2000}

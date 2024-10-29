@@ -17,8 +17,8 @@ const config: Config = {
         secondarydark: "hsl(0 0% 85%)",
         secondarydarker: "hsl(0 0% 70%)",
 
-        alternate: "hsl(14 70% 40%)",
-        alternatebright: "hsl(14 100% 50%)",
+        alternate: "hsl(28 70% 40%)",
+        alternatebright: "hsl(28 100% 50%)",
 
         backgroundImage: {
           "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -26,6 +26,15 @@ const config: Config = {
             "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         },
         foreground: "var(--foreground)"
+      },
+      animation: {
+        fadeIn: 'fadeIn 2s ease-in-out forwards',
+      }
+    },
+    keyframes: {
+      fadeIn: {
+        '0%': { opacity: '0' },
+        '100%': { opacity: '1' },
       },
     },
   },

@@ -16,10 +16,9 @@ export default function Footer() {
             <Image
                 src={bgImg}
                 alt="footerBackground"
-                className="absolute object-cover"
+                className="absolute object-cover blur-sm brightness-50"
                 fill
             />
-            <div className="absolute inset-0 bg-black/50"></div>
             <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-7 z-10">
                 <SocialMediaLinks />
                 <Address className=' flex flex-col gap-4 z-10 flex-[0.50]' />
