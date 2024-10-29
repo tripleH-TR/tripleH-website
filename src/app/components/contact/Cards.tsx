@@ -1,5 +1,4 @@
-import { useTranslations } from "next-intl"
-import { EnvelopeIcon, MapPinIcon, PhoneIcon } from "@heroicons/react/24/outline"
+import { EnvelopeIcon, PhoneIcon } from "@heroicons/react/24/outline"
 import staticInfo from '@/locales/static.json'
 
 
