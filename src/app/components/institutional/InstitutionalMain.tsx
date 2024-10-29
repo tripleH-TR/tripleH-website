@@ -56,8 +56,8 @@ export default function InstitutionalMain() {
                     </div>
                     {/* METIN */}
                     <aside className="flex flex-col justify-center items-center gap-7 bg-alternatebright p-8 md:rounded-l-2xl">
-                        <h3 className='text-primary'>{t('mission')}</h3>
-                        <p className='text-primary'>{t('missionDesc')}</p>
+                        <h3 className='text-secondary'>{t('mission')}</h3>
+                        <p className='text-secondary'>{t('missionDesc')}</p>
                     </aside>
                     {/* RESIM */}
                     <div className='md:col-span-2 row-start-1 md:col-start-3 h-full'>

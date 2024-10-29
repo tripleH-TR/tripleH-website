@@ -12,3 +12,11 @@ interface NavigationItem {
 export interface Navigation {
     items: NavigationItem[]
 }
+
+export interface EmailTemplate {
+    name: string;
+    email: string;
+    phone: string;
+    subject: string;
+    message: string;
+}

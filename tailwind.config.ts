@@ -1,5 +1,5 @@
 import type { Config } from "tailwindcss";
-/** @type {import('tailwindcss').Config} */
+
 
 const config: Config = {
   content: [
@@ -9,9 +9,6 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        sans: ['var(--font-roboto)']
-      },
       colors: {
         primary: "hsl(0, 0%, 0%)",
         primarylight: "hsl(0, 0%, 15%)",
@@ -23,16 +20,15 @@ const config: Config = {
 
         alternate: "hsl(28 70% 40%)",
         alternatebright: "hsl(28 100% 50%)",
-
-        backgroundImage: {
-          "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-          "gradient-conic":
-            "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        },
-        foreground: "var(--foreground)"
+      },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       animation: {
         fadeIn: 'fadeIn 2s ease-in-out forwards',
+        pulse: 'pulse 4s ease-in-out forwards'
       }
     },
     keyframes: {
@@ -40,6 +36,10 @@ const config: Config = {
         '0%': { opacity: '0' },
         '100%': { opacity: '1' },
       },
+      pulse: {
+        '0%, ': { transform: 'scale(1)' },
+        '100%': { transform: 'scale(3)' },
+      }
     },
   },
   plugins: [],

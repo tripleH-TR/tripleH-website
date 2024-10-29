@@ -10,7 +10,7 @@ export default function SubArticle() {
     const t = h.raw('subArticle'); // Artık doğrudan nesne olarak alıyoruz
 
     return (
-        <article className="grid grid-cols-1 grid-rows-1 md:grid-cols-3 md:grid-rows-2 max-w-7xl relative mb-10 ">
+        <article className="grid grid-cols-1 grid-rows-1 md:grid-cols-3 md:grid-rows-2 max-w-7xl mx-auto relative mb-10 ">
 
             <div className="col-span-1 md:row-span-2 h-full relative ">
                 <div className="absolute inset-0 flex items-center justify-center bg-black/50 z-10 md:rounded-l-full">

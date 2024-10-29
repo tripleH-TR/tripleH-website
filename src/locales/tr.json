@@ -56,15 +56,21 @@
     "Contact": {
         "title": "Iletisim",
         "subTitle": "Adres",
-        "address": "Merve Mah. Atatürk Cad. No: 324 A Sancaktepe 34785 İstanbul - Türkiye",
-        "form": {
-            "title": "İletişim Formu",
-            "description": "Mesajınıza en kısa süre içinde dönüş yapacağız.",
-            "name": "Adiniz Soyadiniz",
-            "email": "E-Posta Adresiniz",
-            "massage": "Mesajiniz",
-            "sendButton": "Gonder"
-        }
+        "address": "Merve Mah. Atatürk Cad. No: 324 A Sancaktepe 34785 İstanbul - Türkiye"
+    },
+    "Form": {
+        "title": "İletişime Geç",
+        "subTitle": "İletişim Formundan Dilek ve Şikayetlerinizi Gönderebilirsiniz",
+        "namePlaceholder": "Adınız & Soyadınız",
+        "emailPlaceholder": "E-Posta Adresiniz",
+        "emailTitle": "Lütfen geçerli bir e-posta adresi giriniz",
+        "phonePlaceholder": "Telefon Numaranız",
+        "phoneTitle": "Lütfen geçerli bir telefon numarası giriniz",
+        "subjectPlaceholder": "Konu",
+        "messagePlaceholder": "Mesajınız",
+        "submit": "Gönder",
+        "success": "Mesajınız başarıyla iletildi. En kısa sürede sizinle iletişime geçeceğiz.",
+        "fail": "Mesajınız iletilemedi. Lütfen daha sonra tekrar deneyiniz."
     },
     "Referances": {
         "title": "Referanslar",

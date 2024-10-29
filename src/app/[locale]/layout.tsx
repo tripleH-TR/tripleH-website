@@ -8,8 +8,8 @@ import { Roboto } from 'next/font/google'
 
 const roboto = Roboto({
   subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-roboto-mono',
+  // display: 'swap',
+  // variable: '--font-roboto-mono',
   weight: ['100', '300', '400', '500', '700', '900']
 })
 
@@ -33,11 +33,11 @@ export default async function LocaleLayout({
   const messages = await getMessages({ locale });
 
   return (
-    <html lang={locale} className={roboto.variable}>
+    <html lang={locale} className={roboto.className}>
       <body className=''>
         <NextIntlClientProvider messages={messages}>
           <Navbar locale={locale} />
-          <main className='flex flex-col items-center min-h-screen'>{children}</main>
+          <main className='min-h-screen'>{children}</main>
           <GoTopButton />
           <Footer />
         </NextIntlClientProvider>
