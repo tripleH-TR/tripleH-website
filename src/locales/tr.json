@@ -74,56 +74,6 @@
     },
     "Referances": {
         "title": "Referanslar",
-        "description": "Aciklama Metni",
-        "Refs": [
-            {
-                "logo": "url",
-                "imgages": [
-                    "url1",
-                    "url2",
-                    "url3"
-                ]
-            },
-            {
-                "logo": "url",
-                "imgages": [
-                    "url1",
-                    "url2",
-                    "url3"
-                ]
-            },
-            {
-                "logo": "url",
-                "imgages": [
-                    "url1",
-                    "url2",
-                    "url3"
-                ]
-            },
-            {
-                "logo": "url",
-                "imgages": [
-                    "url1",
-                    "url2",
-                    "url3"
-                ]
-            },
-            {
-                "logo": "url",
-                "imgages": [
-                    "url1",
-                    "url2",
-                    "url3"
-                ]
-            },
-            {
-                "logo": "url",
-                "imgages": [
-                    "url1",
-                    "url2",
-                    "url3"
-                ]
-            }
-        ]
+        "description": "Aciklama Metni"
     }
 }
