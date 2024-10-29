@@ -13,11 +13,11 @@ export default function Home() {
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      setFadeOut(true); // 3 saniye sonra fade-out başlar
+      setFadeOut(true); // 1 saniye sonra fade-out başlar
     }, 1000);
 
     const hideTimer = setTimeout(() => {
-      setShowLogo(false); // 4 saniye sonra tamamen kaldırılır
+      setShowLogo(false); // 2.5 saniye sonra tamamen kaldırılır
     }, 2500);
 
     return () => {
@@ -33,7 +33,7 @@ export default function Home() {
         <div
           className={`fixed inset-0 flex items-center justify-center bg-primary z-50 transition-opacity duration-[2000ms] ${fadeOut ? 'opacity-0' : 'opacity-100'}`}
         >
-          <Image src={logo} alt="3H Logo" className="w-1/3 h-w-1/3" />
+          <Image src={logo} alt="3H Logo" className="w-96 md:w-1/3" />
         </div>
       )}
 
