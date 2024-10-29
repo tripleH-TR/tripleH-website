@@ -1,9 +1,6 @@
-import { useTranslations } from "next-intl";
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import socialLink from "@/locales/static.json"
 export default function SocialMediaLinks() {
-
-    const t = useTranslations('Contact')
     return (<>
         <div className="flex flex-row justify-between z-10 gap-3">
             <a
