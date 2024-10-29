@@ -12,9 +12,6 @@ interface ReferenceItem {
     images: string[];
 }
 
-interface Data {
-    Referances: ReferenceItem[];
-}
 
 export default function References() {
     const [selectedLogo, setSelectedLogo] = useState<ReferenceItem | null>(null);
