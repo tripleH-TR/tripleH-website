@@ -5,7 +5,7 @@ import Image from "next/image"
 export default function Message() {
     const t = useTranslations('Message')
     return (<>
-        <article className="grid col-span-1 md:grid-col-3 max-w-4xl my-10 gap-4 shadow-2xl p-5 opacity-0 animate-fadeIn h-full rounded-3xl mx-auto">
+        <article className="grid col-span-1 md:grid-col-3 max-w-4xl my-10 gap-4 shadow-2xl p-5 opacity-0 animate-fadeIn h-full rounded-3xl mx-auto cursor-default hover:scale-105 transition-all duration-1000">
             <div className="md:col-span-2 p-5 flex flex-col justify-center h-full">
                 <p>{t('introduction1')}</p>
                 <br />
