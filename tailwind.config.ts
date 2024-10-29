@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -17,15 +18,28 @@ const config: Config = {
         secondarydark: "hsl(0 0% 85%)",
         secondarydarker: "hsl(0 0% 70%)",
 
-        alternate: "hsl(14 70% 40%)",
-
-        backgroundImage: {
-          "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-          "gradient-conic":
-            "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-        },
-        foreground: "var(--foreground)"
+        alternate: "hsl(28 70% 40%)",
+        alternatebright: "hsl(28 100% 50%)",
       },
+      backgroundImage: {
+        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "gradient-conic":
+          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      },
+      animation: {
+        fadeIn: 'fadeIn 2s ease-in-out forwards',
+        pulse: 'pulse 4s ease-in-out forwards'
+      }
+    },
+    keyframes: {
+      fadeIn: {
+        '0%': { opacity: '0' },
+        '100%': { opacity: '1' },
+      },
+      pulse: {
+        '0%, ': { transform: 'scale(1)' },
+        '100%': { transform: 'scale(3)' },
+      }
     },
   },
   plugins: [],

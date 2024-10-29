@@ -6,13 +6,12 @@ import Image from 'next/image'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel'
 import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
+import carouselImg1 from "@/images/maincarousel/carousel1.jpg"
+import carouselImg2 from "@/images/maincarousel/carousel2.jpg"
+import carouselImg3 from "@/images/maincarousel/carousel3.jpg"
 
 export default function MainCarousel() {
-    const images = [
-        '/images/maincarousel/carousel1.jpg',
-        '/images/maincarousel/carousel2.jpg',
-        '/images/maincarousel/carousel3.jpg'
-    ]
+    const images = [carouselImg1, carouselImg2, carouselImg3]
 
     return (
         <Carousel
@@ -40,9 +39,6 @@ export default function MainCarousel() {
                         className='max-h-[calc(100vh-64px)]'
                         src={src}
                         alt={`Legend ${index + 1}`}
-                        height={1080}
-                        width={1920}
-                        quality={60}
                         priority={Boolean([0, 1].includes(index))}
                     />
                 </div>

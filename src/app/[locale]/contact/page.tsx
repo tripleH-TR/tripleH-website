@@ -1,3 +1,13 @@
+import Cards from "@/app/components/contact/Cards"
+import Form from "@/app/components/contact/Form"
+import Header from "@/app/components/Header"
+import { useTranslations } from "next-intl"
+
 export default function Contact() {
-    return <h1>Contact Us</h1>
+    const t = useTranslations('Contact')
+    return (<>
+        <Header title={t('title')} />
+        <Cards />
+        <Form />
+    </>)
 }

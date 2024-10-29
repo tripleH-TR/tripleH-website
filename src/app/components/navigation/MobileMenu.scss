@@ -9,7 +9,7 @@
         @apply block rounded-md px-3 py-2 text-base font-medium text-white transition hover:bg-primarylight;
 
         &.active {
-            @apply bg-primary;
+            @apply bg-secondary text-primary;
         }
     }
 
@@ -17,7 +17,7 @@
         @apply text-white flex justify-between w-full rounded-md px-3 py-2 text-base font-medium hover:bg-primarylight;
 
         &.active {
-            @apply bg-primary;
+            @apply bg-secondary text-primary;
         }
     }
 
@@ -28,7 +28,7 @@
             @apply block rounded-md ml-5 px-3 py-2 text-base text-white transition hover:bg-primarylight;
 
             &.active {
-                @apply bg-primary;
+                @apply bg-secondarydarker text-primary;
             }
         }
     }

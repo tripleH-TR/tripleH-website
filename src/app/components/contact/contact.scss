@@ -1,0 +1,33 @@
+.form-main-wrapper {
+    @apply col-span-1 lg:col-span-2 max-w-7xl mx-auto mb-10;
+
+    .form {
+        @apply flex flex-col lg:flex-row flex-wrap justify-center items-center w-full gap-5 shadow-xl rounded-3xl p-5 bg-primarylighter;
+
+        .form-subtitle {
+            @apply flex-grow w-full text-center text-secondary italic;
+
+        }
+
+        .form-title {
+            @apply flex-grow w-full text-center text-secondary;
+
+        }
+
+        .input-wrapper {
+            @apply flex flex-wrap w-full gap-5;
+
+            .inputs {
+                @apply flex-1 p-6 text-primary rounded-lg;
+            }
+        }
+
+        .textarea {
+            @apply w-full h-[200px] p-6 text-primary rounded-lg;
+        }
+
+        .submit-button {
+            @apply bg-primarylight py-4 px-20 text-secondary font-extrabold rounded-2xl shadow-lg hover:bg-primary hover:text-secondary;
+        }
+    }
+}

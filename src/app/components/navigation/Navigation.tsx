@@ -8,6 +8,7 @@ import DesktopMenu from './DesktopMenu'
 import LanguageSelector from './LanguageSelector'
 import { useClickOutside } from '@mantine/hooks'
 import { Navigation as NavigationType } from '@/type/Common'
+import logo from '@/images/logo-beyaz.png'
 
 
 interface NavigationProps {
@@ -33,7 +34,7 @@ const Navigation = ({ navigation, onClose, open }: NavigationProps) => {
                     </DisclosureButton>
                     <div className="flex flex-shrink-0 items-center relative w-20 h-20">
                         <Image
-                            src='/logo-beyaz.png'
+                            src={logo}
                             alt='logo'
                             fill
                             sizes='20vw'
