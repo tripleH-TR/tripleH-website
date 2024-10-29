@@ -4,8 +4,14 @@ import "../globals.scss";
 import Navbar from '../components/navigation/Navbar';
 import Footer from '../components/footer/Footer';
 import GoTopButton from '../components/GoTopButton';
+import { Roboto } from 'next/font/google'
 
-
+const roboto = Roboto({
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-roboto-mono',
+  weight: ['100', '300', '400', '500', '700', '900']
+})
 
 export const generateMetadata = () => {
   return {
@@ -27,7 +33,7 @@ export default async function LocaleLayout({
   const messages = await getMessages({ locale });
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={roboto.variable}>
       <body className=''>
         <NextIntlClientProvider messages={messages}>
           <Navbar locale={locale} />

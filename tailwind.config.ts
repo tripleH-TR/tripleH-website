@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+/** @type {import('tailwindcss').Config} */
 
 const config: Config = {
   content: [
@@ -8,6 +9,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-roboto)']
+      },
       colors: {
         primary: "hsl(0, 0%, 0%)",
         primarylight: "hsl(0, 0%, 15%)",
