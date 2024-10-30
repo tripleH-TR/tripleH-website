@@ -24,7 +24,7 @@ export default function References() {
     };
 
     return (
-        <section className="grid grid-cols-2 md:grid-cols-6 gap-4 p-4 max-w-7xl mx-auto my-10">
+        <section className="grid grid-cols-2 md:grid-cols-6 gap-5 px-3 my-6 max-w-7xl mx-auto">
             {data.Referances.map((item, index) => (
                 <div
                     key={index}
@@ -33,9 +33,9 @@ export default function References() {
                         src={item.logo}
                         alt={`Logo ${index + 1}`}
                         onClick={() => openGallery(item)}
-                        className="cursor-pointer object-contain grayscale hover:grayscale-0 hover:scale-105 transition-all duration-500"
-                        width={150}
-                        height={150}
+                        className="cursor-pointer object-contain grayscale hover:grayscale-0 hover:scale-105 hover:shadow-2xl transition-all duration-500 rounded-md"
+                        width={200}
+                        height={200}
                     />
                 </div>
 
@@ -54,6 +54,7 @@ export default function References() {
                         <Button as={Fragment}>
                             {({ hover }) => (
                                 <button
+                                    type="button"
                                     onClick={() => setIsModalOpen(false)}
                                     className={clsx(
                                         'absolute top-8 right-8 text-3xl z-10 py-2 px-4 shadow-2xl bg-alternatebright text-white duration-500 rounded-full',

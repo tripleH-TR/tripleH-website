@@ -14,7 +14,7 @@ const GoTopButton = () => {
             from="bottom"
             show={scroll.y > 400}
             duration={1000} >
-            <button onClick={() => scrollTo({ y: 0 })} >
+            <button type="button" onClick={() => scrollTo({ y: 0 })} >
                 <ChevronUpIcon className="h-8 w-8 text-secondary" />
             </button>
         </AnimatedSection>
