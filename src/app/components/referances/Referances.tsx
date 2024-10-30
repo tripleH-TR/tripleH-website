@@ -52,7 +52,7 @@ export default function References() {
                         className="fixed inset-0 z-50 bg-secondarydarker bg-opacity-75 p-4 overflow-auto flex items-center justify-center"
                     >
                         <Button as={Fragment}>
-                            {({ hover, active }) => (
+                            {({ hover }) => (
                                 <button
                                     onClick={() => setIsModalOpen(false)}
                                     className={clsx(
