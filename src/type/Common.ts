@@ -1,4 +1,4 @@
-interface NavigationItem {
+export interface NavigationItem {
     name: string
     href?: string
     isActive?: boolean
