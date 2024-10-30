@@ -36,7 +36,7 @@ export default function MainCarousel() {
             {images.map((src, index) => (
                 <div key={index} className='relative h-full w-full'>
                     <Image
-                        className='max-h-[calc(100vh-64px)]'
+                        className='max-h-[calc(100vh-96px)] object-cover'
                         src={src}
                         alt={`Legend ${index + 1}`}
                         priority={Boolean([0, 1].includes(index))}
