@@ -37,7 +37,7 @@
                 @apply text-primary block px-4 py-2 text-sm rounded-md hover:bg-secondarydarker;
 
                 &.active {
-                    @apply bg-secondarydarker
+                    @apply bg-primarylight text-secondary
                 }
             }
         }

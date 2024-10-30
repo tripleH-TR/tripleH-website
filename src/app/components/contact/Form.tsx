@@ -5,7 +5,7 @@ import { EmailTemplate } from "@/type/Common";
 import { useTranslations } from "next-intl";
 import React, { ChangeEvent, FormEvent, useState } from "react"
 import PopUpNotification, { NotificationType } from "./PopUpNotification";
-import "./contact.scss"
+import "./Form.scss"
 
 
 interface NotificationProps {       // notification props tipleri

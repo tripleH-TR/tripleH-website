@@ -10,12 +10,12 @@ const GoTopButton = () => {
 
     return (
         <AnimatedSection
-            className="fixed bottom-8 right-8 z-20 bg-alternatebright rounded-xl p-2"
+            className="fixed bottom-8 right-8 z-20"
             from="bottom"
             show={scroll.y > 400}
             duration={1000} >
             <button type="button" onClick={() => scrollTo({ y: 0 })} >
-                <ChevronUpIcon className="h-8 w-8 text-secondary" />
+                <ChevronUpIcon className="h-12 w-12 text-secondary bg-alternatebright rounded-xl p-2 hover:scale-125 duration-500" />
             </button>
         </AnimatedSection>
     )

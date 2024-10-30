@@ -1,0 +1,39 @@
+.header-wrapper {
+    @apply mt-5 flex flex-col justify-center items-center;
+
+    .header-slogan {
+        @apply pt-4;
+    }
+
+    .header-logo {
+        @apply w-auto mt-[-50px];
+    }
+}
+
+.article-section {
+    @apply flex flex-col gap-5 mb-10 max-w-7xl items-center mx-auto;
+
+    .article-card-wrapper {
+        @apply p-4 shadow-2xl rounded-lg grid grid-cols-1 md:grid-cols-3;
+
+        .image-wrapper {
+            @apply md:col-span-2;
+
+            &.secondary {
+                @apply md:col-start-2 row-start-1;
+            }
+
+            .image {
+                @apply rounded-lg;
+            }
+        }
+
+        .text-wrapper {
+            @apply flex flex-col justify-center m-4 gap-3 col-span-1 flex flex-col justify-center m-4 gap-3 col-span-1;
+
+            &.secondary {
+                @apply md:col-start-1 row-start-2 md:row-start-1;
+            }
+        }
+    }
+}

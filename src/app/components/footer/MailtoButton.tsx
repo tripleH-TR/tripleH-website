@@ -11,6 +11,7 @@ export default function MailButton({ className }: MailButtonProps) {
 
     return (
         <a
+            type="button"
             href={`mailto:${mail.email}`}
             className={className}
         >

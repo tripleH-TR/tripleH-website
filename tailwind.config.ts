@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 
@@ -27,14 +28,19 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       animation: {
-        fadeIn: 'fadeIn 2s ease-in-out forwards',
+        fadeIn: 'fadeIn 0.5s ease-in-out forwards',
+        opacityIn: 'opacityIn 1s ease-in forwards',
       }
     },
     keyframes: {
       fadeIn: {
+        '0%': { opacity: '0', transform: 'scale(0.5)' },
+        '100%': { opacity: '1', transform: 'scale(1)' },
+      },
+      opacityIn: {
         '0%': { opacity: '0' },
         '100%': { opacity: '1' },
-      },
+      }
     },
   },
   plugins: [],
