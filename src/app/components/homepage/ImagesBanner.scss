@@ -1,0 +1,43 @@
+.banner-main-wrapper {
+    @apply mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-0 mb-10 w-full;
+
+    .banner-sub-wrapper-side {
+        @apply relative flex flex-col justify-center items-center;
+
+        .banner-icon-section-side {
+            @apply absolute md:relative inset-0 flex flex-col justify-center items-center text-white z-10 p-5;
+
+            .banner-icon {
+                @apply h-14 w-14 text-secondary md:text-alternate;
+            }
+
+            .banner-text {
+                @apply text-secondary md:text-alternate
+            }
+        }
+
+        .banner-side-image {
+            @apply h-full w-full object-cover brightness-50 md:brightness-75;
+        }
+    }
+
+    .banner-sub-wrapper-center {
+        @apply relative row-span-2 md:col-start-2;
+
+        .banner-icon-section-center {
+            @apply absolute inset-0 flex flex-col justify-center items-center text-white z-10;
+
+            .banner-icon-center {
+                @apply h-14 w-14;
+            }
+
+            .banner-text-center {
+                @apply text-secondary
+            }
+        }
+    }
+
+    .banner-center-image {
+        @apply h-full w-full object-cover aspect-square brightness-50 md:brightness-75;
+    }
+}

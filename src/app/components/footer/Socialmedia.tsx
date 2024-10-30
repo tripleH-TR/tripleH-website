@@ -1,44 +1,56 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 import socialLink from "@/locales/static.json"
-export default function SocialMediaLinks() {
+import { FunctionComponent } from "react";
+import './Footer.scss'
+
+
+interface SMLinksProps {
+    className?: string
+
+}
+
+
+const SocialMediaLinks: FunctionComponent<SMLinksProps> = ({ className }) => {
     return (<>
-        <div className="flex flex-row justify-between z-10 gap-3">
+        <div className={className}>
             <a
                 aria-label="Facebook"
                 href={socialLink.facebook}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-600  transition duration-300 cursor-default"
+                className="link facebook"
             >
-                <FaFacebook className="flex-none w-8 h-8" />
+                <FaFacebook className="media-icon" />
             </a>
             <a
                 aria-label="Instagram"
                 href={socialLink.instagram}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-pink-500  transition duration-300 cursor-default"
+                className="link instagram"
             >
-                <FaInstagram className="flex-none w-8 h-8" />
+                <FaInstagram className="media-icon" />
             </a>
             <a
                 aria-label="LinkedIn"
                 href={socialLink.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-blue-700  transition duration-300 cursor-default"
+                className="link linkedin"
             >
-                <FaLinkedin className="flex-none w-8 h-8" />
+                <FaLinkedin className="media-icon" />
             </a>
             <a
                 aria-label="WhatsApp"
                 href={socialLink.whatsapp}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-green-500  transition duration-300 cursor-default"
+                className="link whatsapp"
             >
-                <FaWhatsapp className="flex-none w-8 h-8" />
+                <FaWhatsapp className="media-icon" />
             </a>
         </div>
     </>)
 }
+
+export default SocialMediaLinks

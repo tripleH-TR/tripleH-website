@@ -5,11 +5,12 @@ import { ClockIcon, GlobeAltIcon, StarIcon } from '@heroicons/react/24/outline'
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import AnimatedSection from '../AnimatedComponent'
+import './Institutional.scss'
 
 export default function InstitutionalMain() {
     const t = useTranslations('About')
     return (<>
-        <section className="my-10 flex flex-col gap-10 min-h-screen">
+        <section className="about-main">
             {/* TARIHCE */}
             <AnimatedSection
                 from='left'
@@ -18,23 +19,23 @@ export default function InstitutionalMain() {
                 hFull
                 className='h-full'
             >
-                <article className="grid grid-cols-1 md:grid-cols-4 drop-shadow-2xl h-full">
+                <article className="left-card">
                     {/* RESIM */}
-                    <div className='md:col-span-2 h-full'>
+                    <div className='left-img-wrapper'>
                         <Image
                             src={historyImage}
                             alt='History'
-                            className='object-cover h-full w-full bg-primary'
+                            className='left-img'
                         />
                     </div>
                     {/* METIN */}
-                    <aside className="flex flex-col justify-center items-center gap-7 bg-primary p-8 md:rounded-r-2xl">
-                        <h3 className='text-secondary'>{t('history')}</h3>
-                        <p className='text-secondary'>{t('historyDesc')}</p>
+                    <aside className="left-aside">
+                        <h3 className='left-heading'>{t('history')}</h3>
+                        <p className='left-text'>{t('historyDesc')}</p>
                     </aside>
                     {/* IKON */}
-                    <div className='hidden md:flex justify-center items-center' >
-                        <ClockIcon className='h-48' />
+                    <div className='left-icon-wrapper' >
+                        <ClockIcon className='left-icon' />
                     </div>
 
                 </article>
@@ -49,22 +50,22 @@ export default function InstitutionalMain() {
                 hFull
                 className='h-full'
             >
-                <article className="grid grid-cols-1 md:grid-cols-4 drop-shadow-2xl h-full">
+                <article className="right-card">
                     {/* IKON */}
-                    <div className='hidden md:flex justify-center items-center' >
-                        <StarIcon className='text-alternatebright h-48' />
+                    <div className='right-icon-wrapper' >
+                        <StarIcon className='right-icon' />
                     </div>
                     {/* METIN */}
-                    <aside className="flex flex-col justify-center items-center gap-7 bg-alternatebright p-8 md:rounded-l-2xl">
-                        <h3 className='text-secondary'>{t('mission')}</h3>
-                        <p className='text-secondary'>{t('missionDesc')}</p>
+                    <aside className="right-aside">
+                        <h3 className='right-heading'>{t('mission')}</h3>
+                        <p className='right-text'>{t('missionDesc')}</p>
                     </aside>
                     {/* RESIM */}
-                    <div className='md:col-span-2 row-start-1 md:col-start-3 h-full'>
+                    <div className='right-img-wrapper'>
                         <Image
                             src={missionImage}
                             alt='Mission'
-                            className='h-full w-full object-cover bg-alternatebright'
+                            className='right-img'
                         />
                     </div>
                 </article>
@@ -79,22 +80,22 @@ export default function InstitutionalMain() {
                 hFull
                 className='h-full'
             >
-                <article className="grid grid-cols-1 md:grid-cols-4 drop-shadow-2xl h-full">
+                <article className="left-card">
                     {/* RESIM */}
-                    <div className='md:col-span-2 h-full'>
+                    <div className='left-img-wrapper'>
                         <Image
                             src={visionImage}
                             alt='vision'
-                            className='h-full w-full object-cover bg-primary' />
+                            className='left-img' />
                     </div>
                     {/* METIN */}
-                    <aside className="flex flex-col justify-center items-center gap-7 bg-primary p-8 md:rounded-r-2xl">
-                        <h3 className='text-secondary'>{t('vision')}</h3>
-                        <p className='text-secondary'>{t('visionDesc')}</p>
+                    <aside className="left-aside">
+                        <h3 className='left-heading'>{t('vision')}</h3>
+                        <p className='left-text'>{t('visionDesc')}</p>
                     </aside>
                     {/* IKON */}
-                    <div className='hidden md:flex justify-center items-center' >
-                        <GlobeAltIcon className='h-48' />
+                    <div className='left-icon-wrapper' >
+                        <GlobeAltIcon className='left-icon' />
                     </div>
 
                 </article>

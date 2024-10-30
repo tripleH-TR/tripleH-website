@@ -1,0 +1,67 @@
+.about-main {
+    @apply my-10 flex flex-col gap-10 min-h-screen;
+
+    .left-card {
+        @apply grid grid-cols-1 md:grid-cols-4 drop-shadow-2xl h-full;
+
+        .left-img-wrapper {
+            @apply md:col-span-2 h-full;
+
+            .left-img {
+                @apply object-cover h-full w-full bg-primary;
+            }
+        }
+
+        .left-aside {
+            @apply flex flex-col justify-center items-center gap-7 bg-primary p-8 md:rounded-r-2xl;
+
+            .left-heading {
+                @apply text-secondary;
+            }
+
+            .left-text {
+                @apply text-secondary;
+            }
+        }
+
+        .left-icon-wrapper {
+            @apply hidden md:flex justify-center items-center;
+
+            .left-icon {
+                @apply text-primary h-48;
+            }
+        }
+    }
+
+    .right-card {
+        @apply grid grid-cols-1 md:grid-cols-4 drop-shadow-2xl h-full;
+
+        .right-icon-wrapper {
+            @apply hidden md:flex justify-center items-center;
+
+            .right-icon {
+                @apply text-alternatebright h-48;
+            }
+        }
+
+        .right-aside {
+            @apply flex flex-col justify-center items-center gap-7 bg-alternatebright p-8 md:rounded-l-2xl;
+
+            .right-heading {
+                @apply text-secondary;
+            }
+
+            .right-text {
+                @apply text-secondary;
+            }
+        }
+
+        .right-img-wrapper {
+            @apply md:col-span-2 row-start-1 md:col-start-3 h-full;
+
+            .right-img {
+                @apply object-cover h-full w-full bg-alternatebright;
+            }
+        }
+    }
+}

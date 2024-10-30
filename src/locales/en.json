@@ -1,7 +1,79 @@
 {
+    "Nav": {
+        "Home": "Home",
+        "Institutional": "Institutional",
+        "About": "About Us",
+        "Message": "Founder's Message",
+        "Referances": "References",
+        "Contact": "Contact"
+    },
     "Home": {
-        "welcome": "Welcome to our website!",
-        "description": "This is the homepage.",
-        "buttonText": "Click here"
+        "title": "3H",
+        "slogan": "New Generation Solutions for the Furniture Industry",
+        "articles": [
+            {
+                "title": "Expert in Design and Production",
+                "description": "Triple H meets needs by transforming raw materials into decorative forms with expert engineers, architect teams, and skilled craftsmen. Moreover, with 50 years of experience..."
+            },
+            {
+                "title": "Environmentally Conscious",
+                "description": "For a livable environment, protection of natural resources, and sustainable development, Unimob Furniture undertakes an environmentally friendly working principle with the ISO 14001 Environmental Management System."
+            }
+        ],
+        "middleBanner": {
+            "leftIconText": "Store",
+            "middleIconText": "Furniture",
+            "rightIconText": "Design"
+        },
+        "subArticle": {
+            "topTitle": "Perfect Production",
+            "topDescription": "We provide perfect production with our fast, innovative, and flexible service approach.",
+            "botTitle": "Expert Team",
+            "botDescription": "With nearly 100 experts, we become a trusted solution partner for our clients in every project."
+        }
+    },
+    "About": {
+        "title": "Institutional",
+        "history": "History",
+        "historyDesc": "UNIMOB provides decoration services for many retail spaces such as stores, offices, hotels, restaurants, and homes. It meets needs by transforming raw materials into decorative forms with expert engineers, architect teams, and skilled craftsmen. With a factory equipped with state-of-the-art machinery covering 8,000 square meters, nearly 100 employees, and suppliers producing every kind of material from upholstery to accessories, it is the 'Young Professional' company of the furniture and decoration industry.",
+        "mission": "Our Mission",
+        "missionDesc": "In a relationship based on mutual benefit and respect with our stakeholders, and with the awareness of commercial and environmental limitations, ethical values, and social responsibilities, to produce beautiful furniture from natural wood solid and veneer that meets and exceeds customer expectations.",
+        "vision": "Our Vision",
+        "visionDesc": "To maintain our reputation in the furniture market with our high quality and reliability, to meet growing customer demands at a higher rate by increasing our capacity with stable investments for sustainable profitability, and to carry our successes to other international markets and our domestic market."
+    },
+    "Message": {
+        "title": "A Letter from the Founder",
+        "introduction1": "Dear business partners, esteemed friends, and valued employees,",
+        "introduction2": "As Edumob Group, the journey we started 27 years ago with the principle of “Everything for Education” has evolved beyond the vision of producing quality and functional educational furniture, bringing us today to international recognition and success as a preferred solution partner in the education, office, and hospitality industries. Our goal moving forward is to push the bar even higher by embracing innovations and changes and to continue on our path with confidence.",
+        "development1": "Since the first day of our establishment, as Edumob Group, we have achieved remarkable success by offering innovative and quality solutions to over 400 prestigious institutions in 5 continents with our focus on creativity, design, innovation, and R&D in the education, hotel, and office furniture sectors, together with our professional teams and business partners.",
+        "development2": "With our high-tech infrastructure, professional architectural team, and R&D investments, we have reached a production capacity that allows us to export to 50 countries today, thereby increasing our strength in the international market.",
+        "development3": "Despite increasing costs and economic challenges in both national and international markets, exacerbated by the pandemic, we have never compromised our commitment to quality and our principle of being a reliable company. By staying true to our core values, we have developed and continue to develop our growth strategies and business lines.",
+        "development4": "To realize our dreams and advance our goals, we have created a fully equipped integrated production and application facility in Bursa by renewing all our machine lines and workshops with state-of-the-art technology within our 12,000 square meters of indoor and 6,500 square meters of open production and application space across three separate locations within Bursa.",
+        "conclusion1": "There is no obstacle that a determined person cannot overcome. I believe that with the innovative perspectives and creative dynamism of our young people and our guidance, Edumob Group will continue to progress confidently.",
+        "conclusion2": "Our motivation stems from the awareness of increasing our contribution to our country's economy and sector and adding more value to our employees. In our education, accommodation, residential construction, and office projects, we provide strong support to our economy by standing together and sharing common values with our customers, business partners, and employees.",
+        "conclusion3": "With its corporate structure, R&D-focused production, philosophy of continuous improvement, customer-oriented solutions, and dynamic structure, Edumob Group will continue to add value in the future with a focus on sustainability, ethical production, and social responsibility."
+    },
+    "Contact": {
+        "title": "Contact",
+        "subTitle": "Address",
+        "address": "Merve Mah. Atatürk Cad. No: 324 A Sancaktepe 34785 Istanbul - Turkey"
+    },
+    "Form": {
+        "title": "Get in Touch",
+        "subTitle": "You can send your requests and complaints via the contact form",
+        "namePlaceholder": "Your Name & Surname",
+        "emailPlaceholder": "Your Email Address",
+        "emailTitle": "Please enter a valid email address",
+        "phonePlaceholder": "Your Phone Number",
+        "phoneTitle": "Please enter a valid phone number",
+        "subjectPlaceholder": "Subject",
+        "messagePlaceholder": "Your Message",
+        "submit": "Send",
+        "success": "Your message has been successfully sent. We will contact you shortly.",
+        "fail": "Your message could not be sent. Please try again later."
+    },
+    "Referances": {
+        "title": "References",
+        "description": "Description Text"
     }
 }
