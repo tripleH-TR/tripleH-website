@@ -3,7 +3,6 @@ import { useState } from "react";
 import { AnimatePresence, easeInOut, motion } from "framer-motion";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
-
 import data from "@/locales/static.json";
 import Image from "next/image";
 
