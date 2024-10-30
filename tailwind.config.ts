@@ -28,7 +28,6 @@ const config: Config = {
       },
       animation: {
         fadeIn: 'fadeIn 2s ease-in-out forwards',
-        pulse: 'pulse 4s ease-in-out forwards'
       }
     },
     keyframes: {
@@ -36,10 +35,6 @@ const config: Config = {
         '0%': { opacity: '0' },
         '100%': { opacity: '1' },
       },
-      pulse: {
-        '0%, ': { transform: 'scale(1)' },
-        '100%': { transform: 'scale(3)' },
-      }
     },
   },
   plugins: [],
