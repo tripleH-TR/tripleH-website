@@ -29,49 +29,6 @@
                 "/referances/ref3/2.jpg",
                 "/referances/ref3/3.jpg"
             ]
-        },
-        {
-            "logo": "/referances/ref4/logo.png",
-            "images": [
-                "/referances/ref4/1.jpg"
-            ]
-        },
-        {
-            "logo": "/referances/ref5/logo.png",
-            "images": [
-                "/referances/ref5/1.jpg",
-                "/referances/ref5/2.jpg",
-                "/referances/ref5/3.jpg",
-                "/referances/ref5/4.jpg",
-                "/referances/ref5/5.jpg"
-            ]
-        },
-        {
-            "logo": "/referances/ref6/logo.png",
-            "images": [
-                "/referances/ref6/1.jpg",
-                "/referances/ref6/2.jpg",
-                "/referances/ref6/3.jpg",
-                "/referances/ref6/4.jpg"
-            ]
-        },
-        {
-            "logo": "/referances/ref7/logo.png",
-            "images": [
-                "/referances/ref7/1.jpg",
-                "/referances/ref7/2.jpg",
-                "/referances/ref7/3.jpg",
-                "/referances/ref7/4.jpg"
-            ]
-        },
-        {
-            "logo": "/referances/ref8/logo.png",
-            "images": [
-                "/referances/ref8/1.jpg",
-                "/referances/ref8/2.jpg",
-                "/referances/ref8/3.jpg",
-                "/referances/ref8/4.jpg"
-            ]
         }
     ]
 }
