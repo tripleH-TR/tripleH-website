@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl"
-import profilePic from "@/images/message/profile.jpg"
+import profilePic from "@/images/message/profile.png"
 import Image from "next/image"
 import logoBg from "@/images/logo.png"
 import './Message.scss'

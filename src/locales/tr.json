@@ -13,12 +13,11 @@
         "articles": [
             {
                 "title": "Tasarım ve Üretimde Uzman",
-                "description": "Triple H, hammaddeyi uzman mühendis, mimar ekipleri ve maharetli ustaları ile dekoratif formlara kavuşturarak ihtiyaçlara cevap vermektedir. Üstelik tam 50 yıllık tecrübe ile..."
+                "description": "Triple H, Türkiye ve İngiltere'de bulunan mimari ekibimizle hammaddeyi dekoratif formlara kavuşturarak ihtiyaçlarınıza yönelik cözüm ortağı olmayı hedefleyen proje şirketiyiz."
             },
             {
                 "title": "Doğaya Karşı Duyarlı",
-                "description": "Yaşanabilir bir çevre, doğal kaynakların korunması, sürdürülebilir bir gelişme için Unimob Mobilya, çevreye duyarlı çalışma prensibini ISO 14001 Çevre Yönetim Sistemi ile taahhüt altına almıştır."
-            }
+                "description": "Yaşanabilir bir çevre, doğal kaynakların korunması ve sürdürülebilir bir gelişme için Triple H, çevreye duyarlı çalışma prensibinin bilincindedir ve bu doğrultuda faaliyet göstermektedir."}
         ],
         "middleBanner": {
             "leftIconText": "Magaza",
@@ -29,29 +28,29 @@
             "topTitle": "Kusursuz Üretim",
             "topDescription": "Hızlı, yenilikçi ve esnek hizmet anlayışımız ile kusursuz bir üretim yapıyoruz.",
             "botTitle": "Uzman Ekip",
-            "botDescription": "100'e yakın uzman ekibimizle, her projede müşterilerimizin güvendiği çözüm ortağı oluyoruz."
+            "botDescription": "İngiltere'deki bağlantılarımızla birlikte, geniş uzman kadromuzla her projede müşterilerimizin güvenilir çözüm ortağı olmayı sürdürüyoruz."
         }
     },
     "About": {
         "title": "Kurumsal",
         "history": "Tarihçe",
-        "historyDesc": "UNIMOB; başta mağaza olmak üzere ofis, otel, restoran ve ev gibi pek çok perakende mekanına dekorasyon hizmeti vermektedir. Hammaddeyi uzman mühendis ve mimar ekipleri ve maharetli ustaları ile dekoratif formlara kavuşturarak ihtiyaçlara cevap vermektedir.8.000 m2’lik son teknoloji ile donatılmış makine parkuruna sahip fabrikası,100’e yakın çalışanı, döşemeden aksesuara her türlü malzemeyi üreten tedarikçileri ile mobilya ve dekorasyon sektörünün ’Genç Profesyonel’ firmasıdır",
+        "historyDesc": "Triple H; başta mağaza olmak üzere ofis, otel, restoran ve ev gibi pek çok perakende mekanına dekorasyon hizmeti vermektedir. Hammaddeyi uzman mühendis ve mimar ekipleri ve maharetli ustaları ile dekoratif formlara kavuşturarak ihtiyaçlara cevap vermektedir. Mobilya ve dekorasyon sektöründe 'Genç Profesyonel' bir firma olarak, her projede kaliteli ve şık çözümler sunmaktadır.",
         "mission": "Misyonumuz",
-        "missionDesc": "Paydaşlarımızla karşılıklı faydaya ve saygıya dayalı bir ilişki içerisinde, ticari ve çevresel sınırlamaların, etik değerlerin ve sosyal sorumlulukların bilincinde, müşteri beklentilerini karşılayan ve aşan özelliklerde doğal ahşap masif ve kaplamadan güzel mobilyalar üretmek.",
+        "missionDesc": "Paydaşlarımızla karşılıklı fayda ve saygı çerçevesinde, ticari ve çevresel sorumlulukların yanı sıra etik değerlerin bilincinde olarak, müşteri beklentilerini karşılayan ve aşan niteliklerde sorunlara çözüm odaklı bakan ve birçok çeşit üretim materyelini kullanabilen deneyimli bir ekibiz.",
         "vision": "Vizyonumuz",
-        "visionDesc": "Yüksek kalite seviyemiz ve güvenilirliğimiz ile mobilya piyasasında kazandığımız itibarımızı arttırarak korumak, istikrarlı yatırımlarımızla kapasitemizi arttırarak sürdürülebilir karlılıkla yoğun müşteri taleplerini daha yüksek oranda karşılayabilmek ve kazandığımız başarıları diğer dış pazarlara ve ülkemiz piyasasına da taşıyabilmek."
+        "visionDesc": "Yüksek kalite anlayışımız ve güvenilirliğimizle mobilya sektöründeki itibarımızı güçlendirerek sürdürmek, istikrarlı yatırımlarımızla kapasitemizi artırarak sürdürülebilir karlılıkla müşteri taleplerini daha verimli şekilde karşılamak ve elde ettiğimiz başarıları yurt dışı pazarlara taşımak."
     },
     "Message": {
         "title": "Kurucudan Bir Mektup",
-        "introduction1": "Değerli iş ortaklarımız, çok kıymetli dostlarımız ve çalışanlarımız,",
-        "introduction2": "Edumob Group olarak 27 yıl önce “Her şey eğitim için” prensibiyle çıktığımız bu yol, kaliteli ve kullanışlı eğitim mobilyası üretme vizyonunu aşarak, bugün bizlere, eğitim, ofis ve konaklama endüstrisinde, uluslararası çapta bir bilinirlik ve tercih edilen bir çözüm ortağı olma başarısını getirdi. Bugünden sonraki hedefimiz ise çıtayı daha da ileri çekerek yenilik ve değişimleri kucaklayarak büyümek ve yolumuza emin adımlarla devam etmektir.",
-        "development1": "Kuruluşumuzun ilk gününden itibaren Edumob Group olarak; eğitim, otel ve ofis mobilyalarısektöründe, yaratıcılık, tasarım, inovasyon ve Ar-GE’yi öne çıkartarak; profesyonel ekiplerimizve iş ortaklarımızla, 5 kıtada 400’den fazla prestijli kuruma, yenilik odaklı ve kaliteli çözümlersunarak kayda değer bir başarı sağladık.",
-        "development2": "Yüksek teknolojik altyapımız, profesyonel mimari ekibimiz ve Ar-Ge yatırımlarımızla uluslararası pazardaki gücümüzü arttırarak bugün 50 ülkeye ihracat yapabilecek üretim gücüne ulaştık.",
-        "development3": "Pandeminin de etkisiyle hem ulusal hem de uluslararası pazarlarda artan maliyetler ve yaşanan ekonomik güçlüklere rağmen, yüksek kalite anlayışımızdan ve güvenilir şirket olma prensibimizden asla ödün vermedik. Temel değerlerimize sadık kalmak suretiyle büyüme stratejilerimizi ve iş kollarımızı geliştirdik ve geliştirmeye de devam ediyoruz.",
-        "development4": "Hayallerimizi gerçekleştirmek ve hedeflerimizi daha da ileri taşımak için Bursa sınırları içerisinde 3 ayrı lokasyonda 12.000 m2’si kapalı, 6500 m2’si açık alandan oluşan üretim ve uygulama alanımızdaki tüm makine parkurlarımızı, atölyelerimizi son teknolojiyle yenileyerek hem Bursa’ya hem de sektörümüze tam donanımlı entegre bir üretim ve uygulama tesisi kazandırdık.",
-        "conclusion1": "İnsanın istedikten sonra aşamayacağı engel yoktur. Gençlerimizin çağı yakalayan yenilikçi bakış açıları, yaratıcı dinamizmleri ve bizlerin yol göstericiliğiyle Edumob Group olarak emin adımlarla ilerleyeceğimize inanıyorum.",
-        "conclusion2": "Motivasyonumuzu; ülkemiz ekonomisine ve sektörümüze sağladığımız katkıyı arttırmak ve çalışanlarımıza daha çok değer katma bilincinden alıyoruz. Eğitim, konaklama, konut yapı ve ofis projelerinde müşterilerimizle, iş ortaklarımızla ve çalışanlarımızla büyük bir dayanışma ve ortak değerlerle ekonomimize destek oluyoruz.",
-        "conclusion3": "Kurumsal yapısı, Ar-Ge odaklı üretimi, sürekli gelişim felsefesi, müşteri odaklı çözüm anlayışıve dinamik yapısıyla; uluslararası standartlarda faaliyet göstererek, sürdürülebilirlik, etik üretim ve sosyal sorumluluk anlayışıyla Edumob Group, gelecekte de katma değer sağlamaya devam edecektir."
+        "introduction1": "Sizlerle birlikte büyüdüğümüz, her adımda güçlendiğimiz bu yolculukta, birlikte elde ettiğimiz başarılardan büyük bir gurur duyuyoruz.",
+        "introduction2": "Triple H olarak, 'Her şey tasarım ve kalite için' prensibiyle çıktığımız bu yol, yalnızca mobilya üretimi vizyonumuzu aşarak, bugün bizlere, restoran, otel ve ev mobilyaları sektörlerinde, uluslararası çapta bir bilinirlik ve tercih edilen bir çözüm ortağı olma başarısını kazandırdı. Bugünden sonraki hedefimiz ise çıtayı daha da ileri taşıyarak yenilikleri ve değişimi kucaklayarak büyümek ve yolumuza emin adımlarla devam etmektir.",
+        "development1": "Kuruluşumuzun ilk gününden itibaren Triple H olarak; otel, restoran ve ev mobilyaları sektörlerinde, yaratıcılık, tasarım, inovasyon ve Ar-Ge'yi ön planda tutarak, profesyonel ekiplerimiz ve iş ortaklarımızla, birçok projede kazandığımız deneyimle yenilik odaklı ve kaliteli çözümler sunarak kayda değer bir başarı elde ettik.",
+        "development2": "Yüksek teknolojik altyapımız, profesyonel mimari ekibimiz ve Ar-Ge yatırımlarımızla uluslararası pazardaki gücümüzü artırarak, bugün pek çok ülkeye ihracat yapacak kapasiteye ulaştık.",
+        "development3": "Yeni nesil iş modelleri ve değişen pazar koşullarına uyum sağlayarak, yüksek kalite anlayışımızdan ve güvenilirlik prensibimizden asla ödün vermedik. Temel değerlerimize sadık kalarak büyüme stratejilerimizi ve iş kollarımızı geliştirdik ve geliştirmeye devam ediyoruz.",
+        "development4": "Hayallerimizi gerçekleştirmek ve hedeflerimizi daha da ileri taşımak için üretim ve uygulama alanlarımızdaki çözüm odaklı çalışanlarımızla, hem sektöre hem de ülkemize prestijli projeler ile katkı sağlamaya devam ediyor, marka değerini yükseltmeyi hedefliyoruz.",
+        "conclusion1": "Başarı çok çalışmak ve yenilikçi olmak gerektirir. Gençlerimizin yenilikçi bakış açıları, yaratıcı dinamizmleri ve bizlerin yol göstericiliğiyle Triple H olarak emin adımlarla ilerleyeceğimize inanıyorum.",
+        "conclusion2": "Triple H olarak; sektörümüze sunduğumuz katkıları artırarak, ülkemize yapacağımız iktisadi büyümeye yurtdışı kaynaklı döviz girdisini arttırmaktır. Restorant, konaklama, konut yapımı projelerinde, müşterilerimiz, iş ortaklarımız ve çalışanlarımızla güçlü bir işbirliği ve ortak değerler çerçevesinde hizmet vermekteyiz.",
+        "conclusion3": "Triple H, güçlü kurumsal yapısı, müşteri memnuniyeti odaklı üretim yaklaşımı, sürekli yenilikçi gelişim anlayışı ile uluslararası standartlarda faaliyet göstererek etik üretim sürdürülebilirlik ve toplumsal değerlerine bağlı kalmayı sürdürecektir. Büyümeye ve büyütmeye devam edecektir."
     },
     "Contact": {
         "title": "Iletisim",
