@@ -29,6 +29,12 @@
                 "/referances/ref3/2.jpg",
                 "/referances/ref3/3.jpg"
             ]
+        },
+        {
+            "logo": "/referances/ref4/logo.png",
+            "images": [
+                "/referances/ref4/logo2.png"
+            ]
         }
     ]
 }
