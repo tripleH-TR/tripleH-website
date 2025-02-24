@@ -3,21 +3,21 @@
         "Home": "Home",
         "Institutional": "Institutional",
         "About": "About Us",
-        "Message": "Founder's Message",
+        "Message": "Founder’s Message",
         "Referances": "References",
         "Contact": "Contact"
     },
     "Home": {
         "title": "3H",
-        "slogan": "New Generation Solutions for the Furniture Industry",
+        "slogan": "Next Generation Solutions for the Furniture Industry",
         "articles": [
             {
                 "title": "Expert in Design and Production",
-                "description": "Triple H meets needs by transforming raw materials into decorative forms with expert engineers, architect teams, and skilled craftsmen. Moreover, with 50 years of experience..."
+                "description": "Triple H is a project company aiming to be your solution partner by transforming raw materials into decorative forms with our architectural team in Turkey and the UK, meeting your needs."
             },
             {
                 "title": "Environmentally Conscious",
-                "description": "For a livable environment, protection of natural resources, and sustainable development, Unimob Furniture undertakes an environmentally friendly working principle with the ISO 14001 Environmental Management System."
+                "description": "Triple H is aware of its responsibility towards the environment, working with a principle of environmental sensitivity to contribute to a livable environment, the conservation of natural resources, and sustainable development."
             }
         ],
         "middleBanner": {
@@ -26,32 +26,32 @@
             "rightIconText": "Design"
         },
         "subArticle": {
-            "topTitle": "Perfect Production",
-            "topDescription": "We provide perfect production with our fast, innovative, and flexible service approach.",
+            "topTitle": "Flawless Production",
+            "topDescription": "We achieve flawless production with our fast, innovative, and flexible service approach.",
             "botTitle": "Expert Team",
-            "botDescription": "With nearly 100 experts, we become a trusted solution partner for our clients in every project."
+            "botDescription": "Together with our connections in the UK, we continue to be a reliable solution partner for our clients in every project with our large and specialized team."
         }
     },
     "About": {
-        "title": "Institutional",
+        "title": "Corporate",
         "history": "History",
-        "historyDesc": "UNIMOB provides decoration services for many retail spaces such as stores, offices, hotels, restaurants, and homes. It meets needs by transforming raw materials into decorative forms with expert engineers, architect teams, and skilled craftsmen. With a factory equipped with state-of-the-art machinery covering 8,000 square meters, nearly 100 employees, and suppliers producing every kind of material from upholstery to accessories, it is the 'Young Professional' company of the furniture and decoration industry.",
+        "historyDesc": "Triple H provides decoration services for many retail spaces, including stores, offices, hotels, restaurants, and homes. With our expert engineers, architects, and skilled craftsmen, we transform raw materials into decorative forms to meet your needs. As a 'Young Professional' company in the furniture and decoration industry, we offer high-quality and stylish solutions in every project.",
         "mission": "Our Mission",
-        "missionDesc": "In a relationship based on mutual benefit and respect with our stakeholders, and with the awareness of commercial and environmental limitations, ethical values, and social responsibilities, to produce beautiful furniture from natural wood solid and veneer that meets and exceeds customer expectations.",
+        "missionDesc": "We are an experienced team focused on problem-solving, utilizing various production materials, and dedicated to meeting and exceeding customer expectations with mutual benefit and respect, while being aware of our commercial, environmental, and ethical responsibilities.",
         "vision": "Our Vision",
-        "visionDesc": "To maintain our reputation in the furniture market with our high quality and reliability, to meet growing customer demands at a higher rate by increasing our capacity with stable investments for sustainable profitability, and to carry our successes to other international markets and our domestic market."
+        "visionDesc": "To strengthen our reputation in the furniture industry with high-quality standards and reliability, to increase our capacity with stable investments, to meet customer demands more efficiently through sustainable profitability, and to expand our successes to international markets."
     },
     "Message": {
         "title": "A Letter from the Founder",
-        "introduction1": "Dear business partners, esteemed friends, and valued employees,",
-        "introduction2": "As Edumob Group, the journey we started 27 years ago with the principle of “Everything for Education” has evolved beyond the vision of producing quality and functional educational furniture, bringing us today to international recognition and success as a preferred solution partner in the education, office, and hospitality industries. Our goal moving forward is to push the bar even higher by embracing innovations and changes and to continue on our path with confidence.",
-        "development1": "Since the first day of our establishment, as Edumob Group, we have achieved remarkable success by offering innovative and quality solutions to over 400 prestigious institutions in 5 continents with our focus on creativity, design, innovation, and R&D in the education, hotel, and office furniture sectors, together with our professional teams and business partners.",
-        "development2": "With our high-tech infrastructure, professional architectural team, and R&D investments, we have reached a production capacity that allows us to export to 50 countries today, thereby increasing our strength in the international market.",
-        "development3": "Despite increasing costs and economic challenges in both national and international markets, exacerbated by the pandemic, we have never compromised our commitment to quality and our principle of being a reliable company. By staying true to our core values, we have developed and continue to develop our growth strategies and business lines.",
-        "development4": "To realize our dreams and advance our goals, we have created a fully equipped integrated production and application facility in Bursa by renewing all our machine lines and workshops with state-of-the-art technology within our 12,000 square meters of indoor and 6,500 square meters of open production and application space across three separate locations within Bursa.",
-        "conclusion1": "There is no obstacle that a determined person cannot overcome. I believe that with the innovative perspectives and creative dynamism of our young people and our guidance, Edumob Group will continue to progress confidently.",
-        "conclusion2": "Our motivation stems from the awareness of increasing our contribution to our country's economy and sector and adding more value to our employees. In our education, accommodation, residential construction, and office projects, we provide strong support to our economy by standing together and sharing common values with our customers, business partners, and employees.",
-        "conclusion3": "With its corporate structure, R&D-focused production, philosophy of continuous improvement, customer-oriented solutions, and dynamic structure, Edumob Group will continue to add value in the future with a focus on sustainability, ethical production, and social responsibility."
+        "introduction1": "We are proud of the successes we have achieved together in this journey, growing and strengthening with each step.",
+        "introduction2": "As Triple H, with the principle 'Everything is for design and quality,' the journey we started has expanded beyond just furniture production, leading us to international recognition and success as a preferred solution partner in the restaurant, hotel, and home furniture sectors. Our goal now is to take things even further by embracing innovation and change, and to continue our journey with firm steps.",
+        "development1": "Since the founding of Triple H, we have achieved significant success by focusing on creativity, design, innovation, and R&D in the hotel, restaurant, and home furniture sectors. With our professional teams and partners, we have provided innovative and high-quality solutions in many projects, gaining valuable experience.",
+        "development2": "With our advanced technological infrastructure, professional architectural team, and R&D investments, we have increased our power in the international market and now have the capacity to export to many countries.",
+        "development3": "By adapting to new business models and changing market conditions, we have never compromised on our high-quality standards and reliability. We have continued to develop our growth strategies and business lines while staying true to our core values.",
+        "development4": "To realize our dreams and take our goals further, we continue to contribute to the industry and our country with prestigious projects, working with solution-oriented employees in production and application areas, aiming to increase our brand value.",
+        "conclusion1": "Success requires hard work and innovation. I believe that, with the innovative perspectives of our youth, their creative dynamism, and our guidance, Triple H will continue to move forward with confidence.",
+        "conclusion2": "As Triple H, we aim to contribute more to the industry and increase foreign exchange inflows to our country by increasing our contributions to the economic growth of our country. We provide services in strong cooperation with our customers, partners, and employees within the framework of shared values in restaurant, accommodation, and housing construction projects.",
+        "conclusion3": "Triple H will continue to operate according to international standards with its strong corporate structure, customer satisfaction-oriented production approach, and commitment to continuous innovation, ethical production, sustainability, and societal values. It will continue to grow and expand."
     },
     "Contact": {
         "title": "Contact",
@@ -60,7 +60,7 @@
     },
     "Form": {
         "title": "Get in Touch",
-        "subTitle": "You can send your requests and complaints via the contact form",
+        "subTitle": "You can send your requests and complaints via the contact form.",
         "namePlaceholder": "Your Name & Surname",
         "emailPlaceholder": "Your Email Address",
         "emailTitle": "Please enter a valid email address",
@@ -68,8 +68,8 @@
         "phoneTitle": "Please enter a valid phone number",
         "subjectPlaceholder": "Subject",
         "messagePlaceholder": "Your Message",
-        "submit": "Send",
-        "success": "Your message has been successfully sent. We will contact you shortly.",
+        "submit": "Submit",
+        "success": "Your message has been successfully sent. We will contact you as soon as possible.",
         "fail": "Your message could not be sent. Please try again later."
     },
     "Referances": {
