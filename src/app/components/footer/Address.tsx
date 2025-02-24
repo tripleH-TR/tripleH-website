@@ -1,4 +1,4 @@
-import { MapPinIcon, PhoneIcon } from "@heroicons/react/24/outline";
+import { PhoneIcon } from "@heroicons/react/24/outline";
 import { useTranslations } from "next-intl"
 import { FunctionComponent } from "react";
 import phone from "@/locales/static.json"
