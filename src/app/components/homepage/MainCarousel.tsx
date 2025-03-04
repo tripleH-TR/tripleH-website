@@ -9,7 +9,7 @@ import { ChevronLeftIcon, ChevronRightIcon } from '@heroicons/react/24/outline'
 import carouselImg1 from "@/images/maincarousel/carousel1.jpg"
 import carouselImg2 from "@/images/maincarousel/carousel2.jpg"
 import carouselImg3 from "@/images/maincarousel/carousel3.jpg"
-import carouselImg3 from "@/images/maincarousel/carousel4.jpg"
+import carouselImg4 from "@/images/maincarousel/carousel4.jpg"
 
 export default function MainCarousel() {
     const images = [carouselImg1, carouselImg2, carouselImg3]
