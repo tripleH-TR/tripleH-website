@@ -2,10 +2,10 @@
     "Nav": {
         "Home": "Ana Sayfa",
         "Institutional": "Kurumsal",
-        "About": "Hakkimizda",
-        "Message": "Kurucu Mesaji",
+        "About": "Hakkımızda",
+        "Message": "Kurucu Mesajı",
         "Referances": "Referanslar",
-        "Contact": "Iletisim"
+        "Contact": "İletişim"
     },
     "Home": {
         "title": "3H",
@@ -22,7 +22,7 @@
         "middleBanner": {
             "leftIconText": "Otel",
             "middleIconText": "Mobilya",
-            "rightIconText": "Tasarim"
+            "rightIconText": "Tasarım"
         },
         "subArticle": {
             "topTitle": "Kusursuz Üretim",
@@ -53,9 +53,9 @@
         "conclusion3": "Triple H, güçlü kurumsal yapısı, müşteri memnuniyeti odaklı üretim yaklaşımı, sürekli yenilikçi gelişim anlayışı ile uluslararası standartlarda faaliyet göstererek etik üretim sürdürülebilirlik ve toplumsal değerlerine bağlı kalmayı sürdürecektir. Büyümeye ve büyütmeye devam edecektir."
     },
     "Contact": {
-        "title": "Iletisim",
+        "title": "İletişim",
         "subTitle": "Adres",
-        "address": "Merve Mah. Atatürk Cad. No: 324 A Sancaktepe 34785 İstanbul - Türkiye"
+        "address": "Güzelyalı Siteler Mah. Boğaz Sk. No:19 Mudanya/Bursa - Türkiye"
     },
     "Form": {
         "title": "İletişime Geç",
@@ -73,6 +73,6 @@
     },
     "Referances": {
         "title": "Referanslar",
-        "description": "Aciklama Metni"
+        "description": "Açıklama Metni"
     }
 }
