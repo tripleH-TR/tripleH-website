@@ -61,6 +61,34 @@
                 "/referances/ref6/3.jpg",
                 "/referances/ref6/4.jpg"
             ]
+        },{
+            "logo": "/referances/ref7/logo.png",
+            "images": [
+                "/referances/ref7/1.jpg",
+                "/referances/ref7/2.jpg",
+                "/referances/ref7/3.jpg",
+                "/referances/ref7/4.jpg",
+                "/referances/ref7/5.jpg",
+                "/referances/ref7/6.jpg",
+                "/referances/ref7/7.jpg",
+                "/referances/ref7/8.jpg",
+                "/referances/ref7/9.jpg",
+                "/referances/ref7/10.jpg",
+                "/referances/ref7/11.jpg",
+                "/referances/ref7/12.jpg",
+                "/referances/ref7/13.jpg",
+                "/referances/ref7/14.jpg",
+                "/referances/ref7/15.jpg",
+                "/referances/ref7/16.jpg",
+                "/referances/ref7/17.jpg",
+                "/referances/ref7/18.jpg",
+                "/referances/ref7/19.jpg",
+                "/referances/ref7/20.jpg",
+                "/referances/ref7/21.jpg",
+                "/referances/ref7/22.jpg"
+            
+                
+            ]
         }
     ]
 }
